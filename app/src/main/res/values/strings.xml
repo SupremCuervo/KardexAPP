@@ -1,0 +1,149 @@
+<resources>
+	<string name="app_name">AppKardex</string>
+	
+	<!-- Firebase Web Client ID - Reemplazar con tu valor real -->
+	<string name="default_web_client_id">501833872923-jujuun3kdgf3cuov56m8flm7jb3r5v5o.apps.googleusercontent.com</string>
+	
+	<!-- Pantallas -->
+	<string name="splash_title">AppKardex</string>
+	<string name="selection_title">Kardex</string>
+	<string name="selection_registered">Iniciar Sesión</string>
+	<string name="selection_register">Inscribirse</string>
+	
+	<!-- Tipos de Usuario -->
+	<string name="user_type_title">Selecciona tu tipo de usuario</string>
+	<string name="user_type_alumno">Alumno</string>
+	<string name="user_type_maestro">Maestro</string>
+	<string name="user_type_admin">Administrador</string>
+	<string name="maestro_password">Contraseña de Maestro</string>
+	<string name="admin_password">Contraseña de Administrador</string>
+	
+	<!-- Login -->
+	<string name="sign_in_title">Inicio de sesión</string>
+	<string name="sign_in_google">Continuar con Google</string>
+	
+	<!-- Registro Alumno -->
+	<string name="register_alumno_title">Registro del Alumno</string>
+	<string name="register_nombre">Nombre completo</string>
+	<string name="register_email">Email</string>
+	<string name="register_matricula">Matrícula</string>
+	<string name="register_carrera">Carrera</string>
+	<string name="register_semestre">Semestre</string>
+	<string name="semestre_uno">1</string>
+	<string name="register_grupo">Grupo</string>
+	<string name="register_materias">Materias</string>
+	<string name="register_primer_semestre">Eres de primer semestre</string>
+	<string name="register_primer_parcial">Eres de primer parcial</string>
+	<string name="register_button">Registrar</string>
+	<string name="register_success">Registro exitoso. Espera autorización</string>
+	
+	<!-- Registro Maestro -->
+	<string name="register_maestro_title">Registro de Maestro</string>
+	<string name="register_area">Área académica</string>
+	<string name="register_materias_impartir">Materias que puede impartir</string>
+	<string name="register_maestro_message">Atento, próximamente estaremos comunicando</string>
+	<string name="register_maestro_success">Espera a que seas autorizado. Gracias por tu registro</string>
+	
+	<!-- Administrador -->
+	<string name="admin_panel_title">Panel de Administrador</string>
+	<string name="admin_tab_alumnos">Alumnos</string>
+	<string name="admin_tab_maestros">Maestros</string>
+	<string name="admin_aceptar">Aceptar</string>
+	<string name="admin_rechazar">Rechazar</string>
+	
+	<!-- Alumno -->
+	<string name="alumno_panel_title">Panel de Alumno</string>
+	<string name="alumno_imprimir_pdf">Imprimir PDF</string>
+	
+	<!-- Maestro -->
+	<string name="maestro_panel_title">Panel de Maestro</string>
+	<string name="maestro_grupos">Grupos asignados</string>
+	<string name="maestro_alumnos">Alumnos</string>
+	<string name="maestro_poner_calificaciones">Poner Calificaciones</string>
+	
+	<!-- General -->
+	<string name="cerrar_sesion">Cerrar Sesión</string>
+	<string name="cancelar">Cancelar</string>
+	<string name="guardar">Guardar</string>
+	<string name="grupo">Grupo %1$s</string>
+	
+	<!-- Materias Programación -->
+	<!-- Semestre 1 -->
+	<string name="materia_programacion">Programación para el Desarrollo de Soluciones Móviles</string>
+	<string name="materia_bases_datos">Bases de Datos</string>
+	<string name="materia_estructuras">Estructuras de Datos</string>
+	<string name="materia_disenno">Diseño de Interfaces Gráficas</string>
+	<!-- Semestre 2 -->
+	<string name="materia_poo">Programación Orientada a Objetos (POO)</string>
+	<string name="materia_calculo_avanzado">Cálculo Avanzado</string>
+	<string name="materia_estructuras_discretas">Estructuras Discretas</string>
+	<string name="materia_fisica_general">Física General</string>
+	<string name="materia_bases_datos_i">Bases de Datos I</string>
+	<!-- Semestre 3 -->
+	<string name="materia_analisis_algoritmos">Análisis y Diseño de Algoritmos</string>
+	<string name="materia_bases_datos_ii">Bases de Datos II</string>
+	<string name="materia_calculo_iii">Cálculo III</string>
+	<string name="materia_arquitectura_computadoras">Arquitectura de Computadoras</string>
+	<string name="materia_ingenieria_software_i">Ingeniería de Software I</string>
+	<!-- Semestre 4 -->
+	<string name="materia_sistemas_operativos">Sistemas Operativos</string>
+	<string name="materia_redes_computadoras">Redes de Computadoras</string>
+	<string name="materia_estructuras_datos_ii">Estructuras de Datos II</string>
+	<string name="materia_algebra_lineal_prog">Álgebra Lineal</string>
+	<string name="materia_desarrollo_web">Desarrollo Web</string>
+	
+	<!-- Materias Ingeniería Civil -->
+	<!-- Semestre 1 -->
+	<string name="materia_matematicas">Matemáticas Aplicadas</string>
+	<string name="materia_estadistica">Estadística</string>
+	<string name="materia_resistencia">Resistencia de Materiales</string>
+	<string name="materia_topografia">Topografía</string>
+	<!-- Semestre 2 -->
+	<string name="materia_calculo_vectorial">Cálculo Vectorial</string>
+	<string name="materia_algebra_lineal_ing">Álgebra Lineal</string>
+	<string name="materia_estatica">Estática</string>
+	<string name="materia_topografia_2">Topografía</string>
+	<string name="materia_quimica_general">Química General</string>
+	<!-- Semestre 3 -->
+	<string name="materia_cinematica_dinamica">Cinemática y Dinámica</string>
+	<string name="materia_mecanica_materiales_i">Mecánica de Materiales I</string>
+	<string name="materia_analisis_estructural_i">Análisis Estructural I</string>
+	<string name="materia_probabilidad_estadistica">Probabilidad y Estadística</string>
+	<string name="materia_geologia_aplicada">Geología Aplicada a la Ingeniería Civil</string>
+	<!-- Semestre 4 -->
+	<string name="materia_ecuaciones_diferenciales">Ecuaciones Diferenciales</string>
+	<string name="materia_hidraulica_basica">Hidráulica Básica</string>
+	<string name="materia_mecanica_materiales_ii">Mecánica de Materiales II</string>
+	<string name="materia_metodos_numericos">Métodos Numéricos</string>
+	<string name="materia_tecnologia_concreto">Tecnología del Concreto</string>
+	
+	<!-- Materias Arquitectura -->
+	<!-- Semestre 1 -->
+	<string name="materia_dibujo">Dibujo Arquitectónico</string>
+	<string name="materia_historia">Historia de la Arquitectura</string>
+	<string name="materia_construccion">Construcción y Tecnología</string>
+	<string name="materia_urbanismo">Urbanismo</string>
+	<!-- Semestre 2 -->
+	<string name="materia_taller_diseno_ii">Taller de Diseño II</string>
+	<string name="materia_expresion_grafica_ii">Expresión Gráfica II</string>
+	<string name="materia_geometria_descriptiva_ii">Geometría Descriptiva II</string>
+	<string name="materia_sistemas_estructurales">Sistemas Estructurales Básicos</string>
+	<string name="materia_historia_universal_i">Historia de la Arquitectura Universal I</string>
+	<!-- Semestre 3 -->
+	<string name="materia_taller_diseno_iii">Taller de Diseño III</string>
+	<string name="materia_construccion_i">Construcción I</string>
+	<string name="materia_topografia_arq">Topografía</string>
+	<string name="materia_historia_arquitectura_ii">Historia de la Arquitectura II</string>
+	<string name="materia_teoria_arquitectura_i">Teoría de la Arquitectura I</string>
+	<!-- Semestre 4 -->
+	<string name="materia_taller_diseno_iv">Taller de Diseño IV</string>
+	<string name="materia_resistencia_materiales_arq">Resistencia de Materiales</string>
+	<string name="materia_instalaciones_i">Instalaciones I</string>
+	<string name="materia_historia_mexico">Historia de la Arquitectura en México</string>
+	<string name="materia_diseno_asistido">Diseño Asistido por Computadora</string>
+	
+	<!-- Carreras -->
+	<string name="carrera_programacion">Programación</string>
+	<string name="carrera_ingenieria">Ingeniería Civil</string>
+	<string name="carrera_arquitectura">Arquitectura</string>
+</resources>

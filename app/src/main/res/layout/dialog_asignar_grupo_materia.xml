@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:maxHeight="400dp">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="24dp">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Selecciona los grupos:"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:textColor="@color/text_primary"
+			android:layout_marginBottom="8dp" />
+
+		<LinearLayout
+			android:id="@+id/llGruposContainer"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:layout_marginBottom="24dp" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Selecciona las materias a impartir:"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:textColor="@color/text_primary"
+			android:layout_marginBottom="8dp" />
+
+		<TextView
+			android:id="@+id/tvMateriaOcupada"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="12sp"
+			android:textColor="@color/error"
+			android:layout_marginBottom="8dp"
+			android:visibility="gone" />
+
+		<LinearLayout
+			android:id="@+id/llMateriasContainer"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" />
+
+	</LinearLayout>
+
+</ScrollView>

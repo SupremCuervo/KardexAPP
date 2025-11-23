@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- Fondo semitransparente -->
+	<item>
+		<shape android:shape="rectangle">
+			<solid android:color="#80000000" />
+		</shape>
+	</item>
+	<!-- Ventana de escaneo (recorte) -->
+	<item
+		android:left="80dp"
+		android:top="80dp"
+		android:right="80dp"
+		android:bottom="80dp">
+		<shape android:shape="rectangle">
+			<solid android:color="#00FFFFFF" />
+		</shape>
+	</item>
+	<!-- Borde de la ventana -->
+	<item
+		android:left="80dp"
+		android:top="80dp"
+		android:right="80dp"
+		android:bottom="80dp">
+		<shape android:shape="rectangle">
+			<stroke
+				android:width="3dp"
+				android:color="@color/primary"
+				android:dashWidth="10dp"
+				android:dashGap="5dp" />
+		</shape>
+	</item>
+</layer-list>
+
+
+
+

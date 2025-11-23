@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "501833872923",
+    "project_id": "appkardex",
+    "storage_bucket": "appkardex.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501833872923:android:147f72433e8add0123aabe",
+        "android_client_info": {
+          "package_name": "com.mhrc.appkardex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501833872923-jujuun3kdgf3cuov56m8flm7jb3r5v5o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mhrc.appkardex",
+            "certificate_hash": "3383bc0cea16bd9e5be6f930032baff3a07bd2dc"
+          }
+        },
+        {
+          "client_id": "501833872923-i60fh31sr2kbf20jpqdlvffd7ujielt1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDgQN9hPpgE32CK_kjKM5axj4v244kUZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501833872923-i60fh31sr2kbf20jpqdlvffd7ujielt1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

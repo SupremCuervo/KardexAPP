@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="16dp"
+	android:background="@color/fondo">
+
+	<TextView
+		android:id="@+id/tvTitle"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Registro Facial - Escaneo de Rostro"
+		android:textSize="24sp"
+		android:textStyle="bold"
+		android:textColor="@color/text_primary"
+		android:gravity="center"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		android:layout_marginTop="24dp" />
+
+	<TextView
+		android:id="@+id/tvInstructions"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:text="Posiciona tu rostro de frente frente a la cámara. El sistema escaneará tus rasgos faciales."
+		android:textSize="16sp"
+		android:textColor="@color/text_secondary"
+		android:gravity="center"
+		android:layout_marginTop="16dp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+
+	<androidx.camera.view.PreviewView
+		android:id="@+id/previewView"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginTop="16dp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/tvInstructions"
+		app:layout_constraintBottom_toTopOf="@id/tvPoseFeedback"
+		app:layout_constraintHeight_percent="0.5" />
+
+	<com.mhrc.appkardex.FaceLandmarkOverlayView
+		android:id="@+id/landmarkOverlay"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:elevation="10dp"
+		android:background="@android:color/transparent"
+		app:layout_constraintEnd_toEndOf="@id/previewView"
+		app:layout_constraintStart_toStartOf="@id/previewView"
+		app:layout_constraintTop_toTopOf="@id/previewView"
+		app:layout_constraintBottom_toBottomOf="@id/previewView" />
+
+	<TextView
+		android:id="@+id/tvPoseFeedback"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:text="Alineando rostro..."
+		android:textSize="14sp"
+		android:textColor="@color/accent"
+		android:gravity="center"
+		android:layout_marginTop="8dp"
+		app:layout_constraintEnd_toEndOf="@id/previewView"
+		app:layout_constraintStart_toStartOf="@id/previewView"
+		app:layout_constraintTop_toBottomOf="@id/previewView" />
+
+	<Button
+		android:id="@+id/btnStart"
+		android:layout_width="0dp"
+		android:layout_height="56dp"
+		android:text="Empezar Escaneo"
+		android:textSize="18sp"
+		android:textStyle="bold"
+		android:layout_marginTop="8dp"
+		android:backgroundTint="@color/primary"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/tvPoseFeedback" />
+
+	<Button
+		android:id="@+id/btnCapture"
+		android:layout_width="0dp"
+		android:layout_height="56dp"
+		android:text="Capturar Rostro"
+		android:textSize="18sp"
+		android:textStyle="bold"
+		android:visibility="gone"
+		android:layout_marginTop="8dp"
+		android:backgroundTint="@color/accent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/btnStart" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

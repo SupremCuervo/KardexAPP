@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Cabeza -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FF5722" />
+            <size android:width="20dp" android:height="20dp" />
+        </shape>
+    </item>
+    <!-- Cuerpo -->
+    <item android:top="20dp" android:left="5dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FF5722" />
+            <size android:width="10dp" android:height="25dp" />
+        </shape>
+    </item>
+    <!-- Brazos -->
+    <item android:top="22dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FF5722" />
+            <size android:width="20dp" android:height="8dp" />
+        </shape>
+    </item>
+    <!-- Piernas -->
+    <item android:top="43dp" android:left="5dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FF5722" />
+            <size android:width="10dp" android:height="20dp" />
+        </shape>
+    </item>
+</layer-list>
+

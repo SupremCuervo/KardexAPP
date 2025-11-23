@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/fondo">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="16dp">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="KARDEX"
+			android:textSize="28sp"
+			android:textStyle="bold"
+			android:textColor="@color/black"
+			android:layout_marginBottom="24dp"
+			android:gravity="center" />
+
+		<TextView
+			android:id="@+id/tvNombre"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="22sp"
+			android:textStyle="bold"
+			android:textColor="@color/nombre_red"
+			android:layout_marginBottom="24dp"
+			android:gravity="center" />
+
+		<TextView
+			android:id="@+id/tvGrupo"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="16sp"
+			android:textColor="@color/black"
+			android:background="@color/label_background"
+			android:padding="12dp"
+			android:layout_marginBottom="12dp"
+			android:gravity="center" />
+
+		<TextView
+			android:id="@+id/tvCarrera"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="16sp"
+			android:textColor="@color/black"
+			android:background="@color/label_background"
+			android:padding="12dp"
+			android:layout_marginBottom="12dp"
+			android:gravity="center" />
+
+		<TextView
+			android:id="@+id/tvMatricula"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="16sp"
+			android:textColor="@color/black"
+			android:background="@color/label_background"
+			android:padding="12dp"
+			android:layout_marginBottom="24dp"
+			android:gravity="center" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Calificaciones"
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:textColor="@color/text_primary"
+			android:layout_marginBottom="16dp" />
+
+		<LinearLayout
+			android:id="@+id/containerCalificaciones"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" />
+
+		<Button
+			android:id="@+id/btnImprimirPDF"
+			android:layout_width="match_parent"
+			android:layout_height="64dp"
+			android:text="@string/alumno_imprimir_pdf"
+			android:layout_marginTop="24dp"
+			android:textSize="16sp"
+			android:backgroundTint="@color/gray_button"
+			android:textColor="@color/black" />
+
+		<Button
+			android:id="@+id/btnReinscripcion"
+			android:layout_width="match_parent"
+			android:layout_height="64dp"
+			android:text="Solicitar Reinscripción"
+			android:layout_marginTop="16dp"
+			android:textSize="16sp"
+			android:visibility="gone" />
+
+		<Button
+			android:id="@+id/btnLogout"
+			android:layout_width="match_parent"
+			android:layout_height="64dp"
+			android:text="@string/cerrar_sesion"
+			android:layout_marginTop="16dp"
+			android:textSize="16sp"
+			android:background="@drawable/rounded_button_gray"
+			android:textColor="@color/black" />
+
+	</LinearLayout>
+
+</ScrollView>
+
